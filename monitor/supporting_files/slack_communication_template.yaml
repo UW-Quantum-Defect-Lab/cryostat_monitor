@@ -1,0 +1,25 @@
+# When communicating between python and Slack, we need to either use
+# webhooks or OAuth tokens.
+#
+# Webhooks are connected to a specific channel specified through the
+# Slack application management website. Webhooks can only send data.
+#
+# Unlike webhooks, OAuth tokens can communicate with anyone within a
+# Slack workspace, and are able to both send and receive information.
+# However, these tokens require a server to run on, so as of Feb 2024
+# we are not actively using them.
+
+# Choose between the production or test urls in your python script.
+# Here, we provide both for convenience. If you are having trouble
+# using the webhook, chance are that it has been invalidated, and you
+# need to make a new one.
+
+# The Slack webhook link for regular everyday use.
+slack_webhook_url_production: a slack webhook url
+# The Slack webhook link for testing new functionalities.
+slack_webhook_url_test: another slack webhook url
+
+# The slack oauth token. Not currently implemented.
+slack_oauth_token: an oauth token url
+# The slack channel to send messages to (if the oath token is used instead of the webhook).
+slack_channel: a valid channel name

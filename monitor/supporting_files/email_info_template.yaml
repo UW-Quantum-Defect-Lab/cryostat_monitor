@@ -1,0 +1,6 @@
+sender_id: my_account_name
+sender_server: gmail.com
+sender_password: my_v3ry_53cur3_p455w0rd!
+recipients:
+  - some_recipient@uw.edu
+  - 1234567890@tmomail.net
