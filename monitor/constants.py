@@ -56,7 +56,7 @@ _DROPBOX_PATH = _get_dropbox_path()
 DATA_STORAGE_FOLDER = _DROPBOX_PATH.joinpath('35share/magnetlog/data')
 """ The parent folder path to store data. """
 
-SUPPORTING_FILES_FOLDER = _DROPBOX_PATH.joinpath('35share/magnetlog/qdl_cryostat_monitor/monitor/supporting_files')
+SUPPORTING_FILES_FOLDER = _DROPBOX_PATH.joinpath('35share/magnetlog/cryostat_monitor/monitor/supporting_files')
 
 # EMAIL_INFO_FILE_PATH = SUPPORTING_FILES_FOLDER / 'email_info_test.yaml'
 EMAIL_INFO_FILE_PATH = SUPPORTING_FILES_FOLDER / 'email_info.yaml'
